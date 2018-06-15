@@ -1,12 +1,14 @@
 *.log
-/data/Smarty/templates_c
+/data/Smarty/templates_c/*
 /data/config/config.php
-/data/cache
+/data/cache/*
 
-/html/plugin
-/html/install/temp
-/html/upload/save_image
-/html/upload/temp_image
-/html/upload/temp_plugin
+/html/plugin/*
+/html/install/temp/*
+/html/upload/save_image/*
+/html/upload/temp_image/*
+/html/upload/temp_plugin/*
 
-/node_modules
+/node_modules/*
+
+!.gitkeep
